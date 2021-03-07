@@ -1,3 +1,17 @@
 2021/03/07-23:22:18.127 133bd Reusing MANIFEST /home/roshan/.config/google-chrome/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/MANIFEST-000001
 2021/03/07-23:22:18.127 133bd Recovering log #132
 2021/03/07-23:22:18.127 133bd Reusing old log /home/roshan/.config/google-chrome/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/000132.log 
+2021/03/07-23:22:51.934 134f3 Level-0 table #136: started
+2021/03/07-23:22:51.958 134f3 Level-0 table #136: 17987 bytes OK
+2021/03/07-23:22:52.017 134f3 Delete type=0 #132
+2021/03/07-23:22:52.017 134f3 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/03/07-23:22:52.017 134f3 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x04\x03\x03\x01'\x005\x000\x006\x00d\x004\x00c\x005\x00c\x005\x002\x006\x00c\x00d\x00b\x002\x002\x00f\x004\x00a\x003\x009\x00e\x007\x00b\x00e\x003\x007\x007\x001\x00c\x003\x006\x00_\x003\x00_\x001\x00:\x000\x000' @ 23310 : 0
+2021/03/07-23:22:52.017 134f3 Compacting 1@1 + 2@2 files
+2021/03/07-23:22:52.117 134f3 Generated table #137@1: 2266 keys, 2129773 bytes
+2021/03/07-23:22:52.200 134f3 Generated table #138@1: 1023 keys, 652145 bytes
+2021/03/07-23:22:52.200 134f3 Compacted 1@1 + 2@2 files => 2781918 bytes
+2021/03/07-23:22:52.250 134f3 compacted to: files[ 0 0 2 0 0 0 0 ]
+2021/03/07-23:22:52.250 134f3 Delete type=2 #123
+2021/03/07-23:22:52.250 134f3 Delete type=2 #124
+2021/03/07-23:22:52.250 134f3 Delete type=2 #136
+2021/03/07-23:22:52.251 134f3 Manual compaction at level-1 from '\x00\x04\x03\x03\x01'\x005\x000\x006\x00d\x004\x00c\x005\x00c\x005\x002\x006\x00c\x00d\x00b\x002\x002\x00f\x004\x00a\x003\x009\x00e\x007\x00b\x00e\x003\x007\x007\x001\x00c\x003\x006\x00_\x003\x00_\x001\x00:\x000\x000' @ 23310 : 0 .. (end); will stop at (end)
