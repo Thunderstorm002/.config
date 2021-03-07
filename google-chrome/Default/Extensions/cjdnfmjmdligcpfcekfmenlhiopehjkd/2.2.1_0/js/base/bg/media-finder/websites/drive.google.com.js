@@ -1,1 +1,0 @@
-registerWebsite([".*://drive.google.com",".*://youtube.googleapis.com"],async(e,o,a)=>{a.videoData.module.loadTopURL=!0,Object.assign(a.videoData,{treatEachVideoAsNew:!0})});

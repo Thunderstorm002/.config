@@ -1,1 +1,0 @@
-browser.webRequest.onBeforeRequest.addListener(async e=>{const{tabId:t,frameId:s}=e;if(e.url.includes("twoseven-bypass=true"))return;const a=await axios.get(`${e.url}&twoseven-bypass=true`),{data:r}=a;browser.tabs.executeScript(t,{allFrames:!1,frameId:s,code:`triggerEvent(window, 'found-media', ${JSON.stringify(r)})`})},{urls:["https://play.viaplay.no/api/stream/byguid**"]});

@@ -1,1 +1,0 @@
-function getVideoshareEvents(){return[RoomEventTypes.ROOM_MEDIA_UPDATE,MediaEventTypes.MEDIA_PLAY,MediaEventTypes.MEDIA_PAUSE,MediaEventTypes.MEDIA_SEEK,MediaEventTypes.MEDIA_INTERACTIVE_CHOICE,RoomEventTypes.ROOM_SOURCE_CHANGE,"new-client"]}function getSupportedComponents(){return["netflix","einthusan"]}

@@ -1,1 +1,0 @@
-{const t=subsrt.format.vtt;subsrt.format.vtt={name:"vtt",parse:t.parse,build(e,r){let a=t.build(e,r);return a=a.replace(/(.*) --> (.*)/g,(t,e,r)=>`${e.replace(/,/,".")} --\x3e ${r.replace(/,/,".")}`)},detect:t.detect}}

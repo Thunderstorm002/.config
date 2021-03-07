@@ -1,1 +1,0 @@
-XRegExp.addToken(/\\var/,()=>"[a-zA-Z0-9_]+",{scope:"all"});

@@ -1,1 +1,0 @@
-const twosevenTabsLRUCache=new window.twoseven.LRUCache;twosevenTabsLRUCache.getLatestTab=function(){return this.keys()[0]||null};const twosevenTabs=window.twosevenTabs=new ProxyObject("twosevenTabs"),tabURLs=window.tabURLs={};

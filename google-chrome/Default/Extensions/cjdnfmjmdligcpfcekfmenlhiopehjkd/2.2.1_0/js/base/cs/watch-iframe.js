@@ -1,1 +1,0 @@
-window.addEventListener("message",({data:e={}})=>{switch(e.__evt_name){case"trigger-watch-iframe":window.top.postMessage({__evt_name:"trigger-watch",overrideMediaEntry:{videoSelector:"webpage",videoURL:window.location.href,videoData:{},from:"js/cs/watch-iframe.cs",referer:window.location.href,origin:window.location.origin,strategies:null,headers:[]}},"*")}});

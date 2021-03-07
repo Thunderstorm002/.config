@@ -1,1 +1,0 @@
-(async()=>{document.addEventListener("ext:youtubeSearch",async e=>{const{detail:{data:t}}=e,{query:n,__responseEvent:c}=t,o=[...document.querySelectorAll("iframe")].find(e=>e.src.includes("youtube.com")),s=await postTo(o.contentWindow,{action:"ts-youtube-search",json:{query:n}},!0);injectScript(`appBus.$emit('${c}', ${JSON.stringify(s)})`,!0)})})();

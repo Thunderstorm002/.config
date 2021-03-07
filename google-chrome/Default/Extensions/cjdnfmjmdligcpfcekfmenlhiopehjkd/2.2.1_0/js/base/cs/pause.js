@@ -1,1 +1,0 @@
-(()=>{const e=browser.runtime.connect({name:"pause"});function n(){e.postMessage({to:"pause",action:"url-changed",data:{url:window.location.href}})}e.onMessage.addListener(e=>{}),window.addEventListener("pushstate",n),window.addEventListener("replacestate",n),n()})();

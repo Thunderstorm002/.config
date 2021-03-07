@@ -1,1 +1,0 @@
-(()=>{if(window.top!==window)return;const e="shudder-video-detect";new RegExp("https://www.shudder.com/play/.*").test(window.location.href)&&browser.runtime.connect({name:e}).postMessage({from:e,action:"add-tab-media",data:window.twoseven.getMediaEntry()})})();

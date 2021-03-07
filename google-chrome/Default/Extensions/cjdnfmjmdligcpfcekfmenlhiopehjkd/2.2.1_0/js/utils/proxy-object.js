@@ -1,1 +1,0 @@
-function ProxyObject(n,e,t){const o={};"string"!=typeof n?Object.assign(o,n,{name:e}):Object.assign(o,{name:n});const i=new Emittery;return["on","off","once","onAny","emit"].forEach(n=>{o[n]=i[n].bind(i)}),onChange(o,function(n,e,t){this.emit("change",{path:n,value:e,previousValue:t})}.bind(o),t)}

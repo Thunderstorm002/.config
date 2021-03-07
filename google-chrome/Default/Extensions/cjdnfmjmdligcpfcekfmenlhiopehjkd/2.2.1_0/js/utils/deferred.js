@@ -1,1 +1,0 @@
-class Deferred{constructor(e){const r={},c=new Promise((c,o)=>{r.resolve=c,r.reject=o,e&&e(c,o)});return c.done=!1,c.resolve=((...e)=>{c.done=!0,r.resolve(...e)}),c.reject=((...e)=>{c.done=!0,r.reject(...e)}),c.cancel=c.reject,c}}

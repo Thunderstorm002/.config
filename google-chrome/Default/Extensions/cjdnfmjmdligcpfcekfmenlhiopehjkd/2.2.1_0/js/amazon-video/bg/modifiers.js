@@ -1,1 +1,0 @@
-browser.webRequest.onHeadersReceived.addListener(e=>{if(0!==e.frameId&&twosevenTabs[e.tabId])return addCORS(e.responseHeaders,"*",e,!0),{responseHeaders:e.responseHeaders}},{urls:[ATVWebPlayerURLWebRequestPattern],types:["script"]},["blocking","responseHeaders"]);

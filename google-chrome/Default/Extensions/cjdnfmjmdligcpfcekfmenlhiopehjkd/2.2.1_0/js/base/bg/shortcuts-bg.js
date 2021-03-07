@@ -1,1 +1,0 @@
-browser.runtime.onConnect.addListener(async a=>{if("shortcuts-cs"!==a.name)return;const e=await getTabByTabId(getTabIdFromPort(a));a.onMessage.addListener((a={})=>{if(a.action)switch(a.action){case"show-tab-media":return showTabMediaOnTab(e)}})});

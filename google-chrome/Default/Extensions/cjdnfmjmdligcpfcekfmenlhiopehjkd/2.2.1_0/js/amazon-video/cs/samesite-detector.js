@@ -1,1 +1,0 @@
-(async()=>{if(window.top===window)return;if(!await window.twoseven.isOnTwoSevenTab())return;const n=new URI(window.location.href),e=n.domain(),i=n.path();e.includes("amazon.")&&i.includes("ap/signin")&&(await waitForDOMNode({type:"selector",value:"#auth-cookie-warning-message"}),browser.runtime.sendMessage({action:"same-site-notification",data:{url:window.location.href}}))})();

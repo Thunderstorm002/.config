@@ -1,1 +1,0 @@
-(()=>{if(window.top===window&&SKIP_ON_HBO)return;setupScriptModifier("hbo",function({src:o}){return("https://play.hbonow.com/js/app.js"===o||"https://play.hbogo.com/js/app.js"===o||"https://play.hbomax.com/js/app.js"===o)&&(twosevenExtLog("hbo-script-replacement","Matched src: "+o),!0)},window.twoseven.hboModifyScriptMap,"head",null,{onObserveNode(o){}})})();

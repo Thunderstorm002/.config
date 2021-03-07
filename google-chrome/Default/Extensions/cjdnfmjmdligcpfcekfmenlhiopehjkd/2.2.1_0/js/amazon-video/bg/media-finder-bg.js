@@ -1,1 +1,0 @@
-browser.runtime.onConnect.addListener(e=>{"amazon-media-finder"===e.name&&e.onMessage.addListener(a=>{const t=getTabIdFromPort(e),{frameId:n}=e.sender;switch(a.action){case"found-media":{const{data:d}=a;d.listeners={afterTriggerWatch(a){e.postMessage({action:"triggered-watch-pause"})}},addTabMedia(t,n,d)}}})});
