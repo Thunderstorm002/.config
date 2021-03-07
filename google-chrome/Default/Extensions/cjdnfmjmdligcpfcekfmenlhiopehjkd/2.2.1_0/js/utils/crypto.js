@@ -1,0 +1,1 @@
+(()=>{async function t(t,n){const a=(new TextEncoder).encode(n),r=await window.crypto.subtle.digest(t,a);return[...new Uint8Array(r)].map(t=>{const n=t.toString(16),a=n.padStart(2,"0");return a}).join("")}window.SimpleCrypto={sha256:async n=>t("SHA-256",n),async sha224(t){return(await this.sha256(t)).substr(0,28)}}})();

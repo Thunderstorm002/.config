@@ -1,0 +1,1 @@
+window.addEventListener("bust-cache",async a=>{const{detail:{data:t}}=a,{url:e,tabId:d}=t;browser.runtime.sendMessage({action:"bust-cache",data:{url:e,tabId:d}})});

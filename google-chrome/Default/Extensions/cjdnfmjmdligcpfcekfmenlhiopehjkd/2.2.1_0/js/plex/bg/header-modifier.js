@@ -1,0 +1,1 @@
+browser.webRequest.onHeadersReceived.addListener(e=>{const{tabId:s}=e;return twosevenTabs[s]&&removeHeaderEntry("content-security-policy",e.responseHeaders),{responseHeaders:e.responseHeaders}},{urls:["*://app.plex.tv/**"]},["responseHeaders","blocking"]);

@@ -1,0 +1,1 @@
+setupCacheBuster(window.twoseven.HBO_APP_WEBREQUEST_PATTERNS,"[hbo]->cache-buster"),browser.webRequest.onBeforeRequest.addListener(e=>{if(0!==e.frameId&&twosevenTabs[e.tabId])return{cancel:!0}},{urls:window.twoseven.HBO_APP_WEBREQUEST_PATTERNS},["blocking"]);

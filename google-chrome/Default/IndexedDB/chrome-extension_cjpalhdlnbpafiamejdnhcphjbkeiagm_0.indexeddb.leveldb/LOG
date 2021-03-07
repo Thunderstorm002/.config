@@ -1,0 +1,8 @@
+2021/03/07-19:29:02.568 e706 Reusing MANIFEST /home/roshan/.config/google-chrome/Default/IndexedDB/chrome-extension_cjpalhdlnbpafiamejdnhcphjbkeiagm_0.indexeddb.leveldb/MANIFEST-000001
+2021/03/07-19:29:02.568 e706 Recovering log #4
+2021/03/07-19:29:02.569 e706 Reusing old log /home/roshan/.config/google-chrome/Default/IndexedDB/chrome-extension_cjpalhdlnbpafiamejdnhcphjbkeiagm_0.indexeddb.leveldb/000004.log 
+2021/03/07-19:29:04.637 e741 Level-0 table #8: started
+2021/03/07-19:29:04.637 e741 Level-0 table #8: 0 bytes OK
+2021/03/07-19:29:04.803 e741 Delete type=0 #4
+2021/03/07-19:29:04.804 e741 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/03/07-19:29:04.804 e741 Manual compaction at level-1 from (begin) .. (end); will stop at (end)

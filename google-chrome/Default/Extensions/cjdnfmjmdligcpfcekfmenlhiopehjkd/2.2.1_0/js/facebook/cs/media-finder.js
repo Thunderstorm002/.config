@@ -1,0 +1,1 @@
+!function(){if(!window.location.host.includes("facebook"))return;const o=browser.runtime.connect({name:"fb-media-finder"});const n=window.location.href;(function(o){return!!o.match(/^(?:(?:https?:)?\/\/)?(?:www\.)?facebook\.com\/[a-zA-Z0-9.]+\/videos\/(?:[a-zA-Z0-9.]+\/)?([0-9]+)/g)})(n)&&o.postMessage({action:"found-media",url:n})}();

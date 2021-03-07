@@ -1,0 +1,8 @@
+2021/03/07-21:27:18.103 11963 Reusing MANIFEST /home/roshan/.config/google-chrome/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/03/07-21:27:18.103 11963 Recovering log #51
+2021/03/07-21:27:18.103 11963 Reusing old log /home/roshan/.config/google-chrome/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/000051.log 
+2021/03/07-21:27:50.139 11d15 Level-0 table #57: started
+2021/03/07-21:27:50.139 11d15 Level-0 table #57: 0 bytes OK
+2021/03/07-21:27:50.196 11d15 Delete type=0 #51
+2021/03/07-21:27:50.196 11d15 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/03/07-21:27:50.196 11d15 Manual compaction at level-1 from (begin) .. (end); will stop at (end)

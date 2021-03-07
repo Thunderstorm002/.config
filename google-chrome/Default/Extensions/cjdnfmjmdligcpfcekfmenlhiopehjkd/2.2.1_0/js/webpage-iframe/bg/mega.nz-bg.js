@@ -1,0 +1,1 @@
+browser.webRequest.onBeforeRequest.addListener(e=>{if(0!==e.frameId&&twosevenTabs[e.tabId])return{redirectUrl:browser.extension.getURL("js/websites/mega.nz/secureboot.js")}},{urls:["https://mega.nz/secureboot.js*"],types:["script"]},["blocking"]);

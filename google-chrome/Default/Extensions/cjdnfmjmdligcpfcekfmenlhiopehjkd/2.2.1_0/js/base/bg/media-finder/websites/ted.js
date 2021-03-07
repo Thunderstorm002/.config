@@ -1,0 +1,1 @@
+registerWebsite([".*://.*ted.com.*"],async(e,t,a)=>{const i=a.referer,r=document.createElement("html"),c=await axios.get(i);r.innerHTML=c.data;const n=r.querySelector("title").text;Object.assign(a.videoData,{title:n})});

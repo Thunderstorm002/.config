@@ -1,0 +1,1 @@
+!function(){if(window.top!==window)return;const t="shortcuts-cs",o={"shift+alt+w":"show-tab-media",esc:function(){injectScript("window.twoseven.closeTabMediaModal()",!0)}},n=browser.runtime.connect({name:t});n.name=t;const e=key.noConflict();Object.entries(o).forEach(([o,s])=>{e(o,"string"==typeof s?()=>{n.postMessage({from:t,to:"shortcuts-bg",action:s})}:s)})}();

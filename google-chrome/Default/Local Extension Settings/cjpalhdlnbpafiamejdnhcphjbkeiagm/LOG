@@ -1,0 +1,26 @@
+2021/03/07-19:29:02.432 e706 Reusing MANIFEST /home/roshan/.config/google-chrome/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/MANIFEST-000001
+2021/03/07-19:29:02.432 e706 Recovering log #20
+2021/03/07-19:29:02.539 e706 Reusing old log /home/roshan/.config/google-chrome/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/000020.log 
+2021/03/07-19:36:05.444 e716 Level-0 table #24: started
+2021/03/07-19:36:05.535 e716 Level-0 table #24: 2102288 bytes OK
+2021/03/07-19:36:05.585 e716 Delete type=0 #20
+2021/03/07-19:46:10.663 f142 Level-0 table #26: started
+2021/03/07-19:46:10.738 f142 Level-0 table #26: 2184404 bytes OK
+2021/03/07-19:46:10.788 f142 Delete type=0 #23
+2021/03/07-19:46:10.789 f142 Compacting 4@0 + 2@1 files
+2021/03/07-19:46:10.888 f142 Generated table #27@0: 17 keys, 2711057 bytes
+2021/03/07-19:46:10.963 f142 Generated table #28@0: 18 keys, 1078373 bytes
+2021/03/07-19:46:10.963 f142 Compacted 4@0 + 2@1 files => 3789430 bytes
+2021/03/07-19:46:11.029 f142 compacted to: files[ 0 2 1 0 0 0 0 ]
+2021/03/07-19:46:11.030 f142 Delete type=2 #16
+2021/03/07-19:46:11.030 f142 Delete type=2 #17
+2021/03/07-19:46:11.030 f142 Delete type=2 #19
+2021/03/07-19:46:11.030 f142 Delete type=2 #21
+2021/03/07-19:46:11.030 f142 Delete type=2 #24
+2021/03/07-19:46:11.030 f142 Delete type=2 #26
+2021/03/07-19:57:15.110 f142 Level-0 table #30: started
+2021/03/07-19:57:15.171 f142 Level-0 table #30: 1637439 bytes OK
+2021/03/07-19:57:15.222 f142 Delete type=0 #25
+2021/03/07-20:01:01.881 f489 Level-0 table #32: started
+2021/03/07-20:01:01.960 f489 Level-0 table #32: 2926965 bytes OK
+2021/03/07-20:01:02.010 f489 Delete type=0 #29

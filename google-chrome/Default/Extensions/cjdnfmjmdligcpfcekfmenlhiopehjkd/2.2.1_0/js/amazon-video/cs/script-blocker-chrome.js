@@ -1,0 +1,1 @@
+(async()=>{const e=await window.twoseven.isOnTwoSevenTab(),n=window.twoseven.isOnAmazon();if(!e||!n)return;const s=browser.runtime.connect({name:"amazon-script-blocker"}),o={[ATVWebPlayerURLWebRequestPattern]:browser.extension.getURL("/web_resources/js/amazon/ATVWebPlayer.js")};s.postMessage({action:"redirect-url",urls:o})})();

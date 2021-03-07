@@ -1,0 +1,5 @@
+2021/02/22-03:38:50.817 6cb1 Reusing MANIFEST /home/roshan/.config/google-chrome/Default/IndexedDB/chrome-extension_cjpalhdlnbpafiamejdnhcphjbkeiagm_0.indexeddb.leveldb/MANIFEST-000001
+2021/02/22-03:38:52.860 6b20 Level-0 table #5: started
+2021/02/22-03:38:52.901 6b20 Level-0 table #5: 217 bytes OK
+2021/02/22-03:38:52.951 6b20 Delete type=0 #3
+2021/02/22-03:38:52.951 6b20 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

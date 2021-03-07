@@ -1,0 +1,5 @@
+2021/03/07-19:30:48.894 ecd3 Reusing MANIFEST /home/roshan/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/03/07-19:32:29.928 ecd1 Level-0 table #5: started
+2021/03/07-19:32:29.958 ecd1 Level-0 table #5: 46845 bytes OK
+2021/03/07-19:32:30.060 ecd1 Delete type=0 #3
+2021/03/07-19:32:30.060 ecd1 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

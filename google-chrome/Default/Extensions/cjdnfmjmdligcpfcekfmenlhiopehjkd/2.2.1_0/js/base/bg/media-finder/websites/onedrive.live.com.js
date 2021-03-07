@@ -1,0 +1,1 @@
+registerWebsite([".*://onedrive.live.com"],async(e,o,i)=>{const{videoURL:s}=i;if(s.includes("videoformat=dash")){const{url:e}=parseVideoURL(s);i.videoURL=`hls:${e.replace(/videoformat=dash/,"videoformat=hls")}`}});
