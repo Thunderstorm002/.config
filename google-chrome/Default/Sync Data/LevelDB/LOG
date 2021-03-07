@@ -1,3 +1,6 @@
 2021/03/07-19:29:00.344 e715 Reusing MANIFEST /home/roshan/.config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
 2021/03/07-19:29:00.344 e715 Recovering log #3
 2021/03/07-19:29:00.525 e715 Reusing old log /home/roshan/.config/google-chrome/Default/Sync Data/LevelDB/000003.log 
+2021/03/07-21:49:00.357 12492 Level-0 table #5: started
+2021/03/07-21:49:00.411 12492 Level-0 table #5: 165545 bytes OK
+2021/03/07-21:49:00.912 12492 Delete type=0 #3
