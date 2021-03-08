@@ -33,10 +33,10 @@ format = "{1m}"
 block = "networkmanager"
 #on_click = "alacritty -e nmgui"
 
-[[block]]
-block = "bluetooth"
-mac = "00:16:94:3C:15:51"
-label = "Sennheiser HD 4.40BT"
+#[[block]]
+#block = "bluetooth"
+#mac = "00:16:94:3C:15:51"
+#label = "Sennheiser HD 4.40BT"
 
 [[block]]
 block = "time"
