@@ -1,26 +1,27 @@
-rua/
-google-chrome/
-BraveSoftware/
-syncthing/
-syncthing-gtk/
-dconf/
-deluge/
-evolution/
-gedit/
-gnome-boxes/
-gnome-session/
-goa-1.0/
-ibus/
-menus/
-nautilus/
-pulse/
-wal/
-xfce4/
-Thunar/
-polybar.old/
-dleyna-renderer-service.conf
-mimeapps.list
-pavucontrol.ini
-QtProject.conf
-user-dirs.dirs
-user-dirs.locale
+# Ignore everything
+# Because I don't want to track every application's configuration. Only a few.
+*
+
+# But not these files...
+!.gitignore
+!alacritty/
+!dunst/
+!fish/
+!gtk-3.0/
+!i3/
+!i3status-rust/
+!keepassxc/
+!polybar/
+!systemd/
+!ulauncher/
+
+# !script.pl
+# !template.latex
+# etc...
+
+# ...even if they are in subdirectories
+# !*/
+
+# if the files to be tracked are in subdirectories
+# !*/a/b/file1.txt
+# !*/a/b/c/*
