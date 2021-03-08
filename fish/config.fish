@@ -22,8 +22,8 @@ zoxide init fish | source
 
 #------------------------ pywal setting for fish shell ------------------------
 
-set pywal wal -R
-eval $pywal
-eval clear
+#set pywal wal --theme base16-black-metal-funeral
+#eval $pywal
+#eval clear
 
 #------------------------------------------------------------------------------

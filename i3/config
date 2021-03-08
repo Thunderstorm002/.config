@@ -27,7 +27,7 @@ font xft:DejaVu-Book 11
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec alacritty
+bindsym $mod+Return exec kitty
 
 # kill focused window
 bindsym $mod+q kill
@@ -378,15 +378,44 @@ bar {
 # hide/unhide i3status bar
 #bindsym $mod+m bar mode toggle
 
+# Set colors from Xresources
+# Change 'color7' and 'color2' to whatever colors you want i3 to use 
+# from the generated scheme.
+# NOTE: The '#f0f0f0' in the lines below is the color i3 will use if
+# it fails to get colors from Xresources.
+
+
+set $bg_0  #444444
+set $bg_1  #121212
+set $bg_2  #999999
+set $bg_3  #5f81a5
+set $bg_4  #000000
+set $bg_5  #0e2f44
+set $bg_6  #0C0C0C
+set $bg_7  #c1c1c1
+set $bg_8  #FFFFFF
+set $bg_9  #454948
+set $bg_10 #268BD2
+set $bg_11 #222222
+
+# class                 border    backgr.    text     indicator    child_border
+client.focused          $bg_0     $bg_0      $bg_7    $bg_5       
+client.focused_inactive $bg_1     $bg_1      $bg_2    $bg_9       
+client.unfocused        $bg_1     $bg_1      $bg_2    $bg_9       
+client.urgent           $bg_3     $bg_5      $bg_2    $bg_10       
+client.placeholder      $bg_4     $bg_6      $bg_8    $bg_4      
+
+client.background       $bg_11
+
 # Theme colors
 # class                   border  backgr. text    indic.   child_border
-  client.focused          #556064 #556064 #80FFF9 #FDF6E3
-  client.focused_inactive #2F3D44 #2F3D44 #1ABC9C #454948
-  client.unfocused        #2F3D44 #2F3D44 #1ABC9C #454948
-  client.urgent           #CB4B16 #FDF6E3 #1ABC9C #268BD2
-  client.placeholder      #000000 #0c0c0c #ffffff #000000 
+#  client.focused          #556064 #556064 #80FFF9 #FDF6E3
+#  client.focused_inactive #2F3D44 #2F3D44 #1ABC9C #454948
+#  client.unfocused        #2F3D44 #2F3D44 #1ABC9C #454948
+#  client.urgent           #CB4B16 #FDF6E3 #1ABC9C #268BD2
+#  client.placeholder      #000000 #0c0c0c #ffffff #000000 
 
-  client.background       #2B2C2B
+#  client.background       #2B2C2B
 
 #############################
 ### settings for i3-gaps: ###
