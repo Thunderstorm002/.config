@@ -23,3 +23,9 @@
     8. [zoxide](https://github.com/ajeetdsouza/zoxide)
        - zoxide is a blazing fast alternative to cd, inspired by z and z.lua.
        - installed using cargo
+    9. [ulauncher]
+    10. [python-pywal]
+        - Theme setter
+    11. [Alacritty]
+        - Terminal.
+   
