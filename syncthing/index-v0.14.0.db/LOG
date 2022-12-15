@@ -1,0 +1,19 @@
+=============== Dec 4, 2022 (IST) ===============
+02:16:08.445099 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+02:16:08.528135 db@open opening
+02:16:08.529384 version@stat F·[] S·0B[] Sc·[]
+02:16:08.569872 db@janitor F·2 G·0
+02:16:08.569887 db@open done T·41.731861ms
+02:16:09.928568 memdb@flush N·46 S·1KiB
+02:16:09.945387 memdb@flush created L0@3 N·46 S·597B "\ndb..ion,v46":"\nla..ime,v19"
+02:16:09.945425 version@stat F·[1] S·597B[597B] Sc·[0.25]
+02:16:09.978721 memdb@flush committed F·1 T·50.085863ms
+02:16:09.978767 journal@remove removed @1
+02:16:09.978776 table@compaction range L-1 "":""
+02:16:09.978788 table@compaction L0·1 -> L1·0 S·597B Q·46
+02:16:09.995396 table@build created L1@4 N·4 S·207B "\ndb..ion,v46":"\nla..ime,v19"
+02:16:09.995526 version@stat F·[0 1] S·207B[0B 207B] Sc·[0.00 0.00]
+02:16:10.028724 table@compaction committed F~ S-390B Ke·0 D·42 T·49.914743ms
+02:16:10.028940 table@remove removed @3
+03:09:20.612621 db@close closing
+03:09:20.612869 db@close done T·242.88µs
