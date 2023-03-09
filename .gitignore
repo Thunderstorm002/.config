@@ -4,11 +4,11 @@
 
 # But not these files...
 !.gitignore
-!alacritty/
-!fish/
-!i3/
-!polybar/
-!ulauncher/
+!./alacritty
+!./fish
+!./i3
+!./polybar
+!./ulauncher
 
 # !script.pl
 # !template.latex
