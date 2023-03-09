@@ -1,0 +1,22 @@
+# Ignore everything
+# Because I don't want to track every application's configuration. Only a few.
+*
+
+# But not these files...
+!.gitignore
+!alacritty/
+!fish/
+!i3/
+!polybar/
+!ulauncher/
+
+# !script.pl
+# !template.latex
+# etc...
+
+# ...even if they are in subdirectories
+# !*/
+
+# if the files to be tracked are in subdirectories
+# !*/a/b/file1.txt
+# !*/a/b/c/*
