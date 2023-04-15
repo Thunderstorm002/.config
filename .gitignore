@@ -9,13 +9,11 @@
 !fish/
 !gtk-3.0/
 !i3/
-!i3status-rust/
 !keepassxc/
 !polybar/
 !systemd/
-!ulauncher/
-!kitty/
-
+!nvim/
+!starship.toml
 # !script.pl
 # !template.latex
 # etc...
