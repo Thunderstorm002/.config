@@ -1,3 +1,15 @@
-2022/12/16-01:35:40.224 8c12 Reusing MANIFEST /home/roshan/.config/Element/IndexedDB/vector_vector_0.indexeddb.leveldb/MANIFEST-000001
-2022/12/16-01:35:40.224 8c12 Recovering log #21
-2022/12/16-01:35:40.241 8c12 Reusing old log /home/roshan/.config/Element/IndexedDB/vector_vector_0.indexeddb.leveldb/000021.log 
+2023/04/14-23:46:08.785 a4c Reusing MANIFEST /home/roshan/.config/Element/IndexedDB/vector_vector_0.indexeddb.leveldb/MANIFEST-000001
+2023/04/14-23:46:08.791 a4c Recovering log #76
+2023/04/14-23:46:09.423 a4c Reusing old log /home/roshan/.config/Element/IndexedDB/vector_vector_0.indexeddb.leveldb/000076.log 
+2023/04/15-00:06:34.224 a45 Level-0 table #81: started
+2023/04/15-00:06:34.582 a45 Level-0 table #81: 1339308 bytes OK
+2023/04/15-00:06:34.708 a45 Delete type=0 #76
+2023/04/15-00:06:35.161 a45 Compacting 1@1 + 1@2 files
+2023/04/15-00:06:35.257 a45 Generated table #82@1: 5415 keys, 798662 bytes
+2023/04/15-00:06:35.257 a45 Compacted 1@1 + 1@2 files => 798662 bytes
+2023/04/15-00:06:35.341 a45 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/04/15-00:06:35.341 a45 Delete type=2 #78
+2023/04/15-00:06:35.341 a45 Delete type=2 #81
+2023/04/15-06:46:56.937 33d7 Level-0 table #84: started
+2023/04/15-06:46:56.986 33d7 Level-0 table #84: 1163203 bytes OK
+2023/04/15-06:46:57.037 33d7 Delete type=0 #80

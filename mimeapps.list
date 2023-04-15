@@ -3,6 +3,9 @@ inode/directory=thunar.desktop;
 x-scheme-handler/geo=qwant-maps-geo-handler.desktop;
 x-scheme-handler/http=firefox.desktop;
 x-scheme-handler/https=firefox.desktop;
+text/plain=org.kde.kate.desktop;nvim.desktop;
+application/pdf=org.pwmt.zathura-pdf-mupdf.desktop;mupdf.desktop;
+application/x-shellscript=org.kde.kate.desktop;
 
 [Default Applications]
 inode/directory=thunar.desktop;
@@ -10,3 +13,4 @@ x-scheme-handler/geo=qwant-maps-geo-handler.desktop;
 x-scheme-handler/http=firefox.desktop;
 x-scheme-handler/https=firefox.desktop;
 x-scheme-handler/etcher=balena-etcher.desktop
+x-scheme-handler/obsidian=obsidian.desktop
