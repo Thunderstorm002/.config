@@ -9,6 +9,10 @@
 !./i3
 !./polybar
 !./ulauncher
+!starship.toml
+!./zathura/zathurarc
+!./espanso
+!./nyxt
 
 # !script.pl
 # !template.latex
