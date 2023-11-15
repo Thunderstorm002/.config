@@ -4,15 +4,15 @@
 
 # But not these files...
 !.gitignore
-!alacritty/
-!dunst/
-!fish/
-!gtk-3.0/
-!i3/
-!keepassxc/
-!polybar/
-!systemd/
-!nvim/
+!alacritty/*
+!dunst/*
+!fish/*
+!gtk-3.0/*
+!i3/*
+!keepassxc/*
+!polybar/*
+!systemd/*
+!nvim/*
 !starship.toml
 # !script.pl
 # !template.latex
